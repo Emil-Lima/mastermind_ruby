@@ -1,21 +1,5 @@
 module UserComputer
-  def number_to_color(num)
-    case num
-    when 0
-      "r"
-    when 1
-      "b"
-    when 2
-      "y"
-    when 3
-      "g"
-    when 4
-      "c"
-    when 5
-      "w"
-    end
-  end
-
+  
   def user_code
     possibilities = (1111..6666).to_a
     possibilities.map! { |el| el.to_s}
